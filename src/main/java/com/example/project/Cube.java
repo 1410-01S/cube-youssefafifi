@@ -24,9 +24,11 @@ public class RubiksCube {
         switch(input.toLowerCase()){
             case "u":
                 soultion_stack.add("u'");
+                rotateTop();
                 break;
             case "d":
             soultion_stack.add("d'");
+                rotateBottom();
                 break;
             case "r":
             soultion_stack.add("r'");
