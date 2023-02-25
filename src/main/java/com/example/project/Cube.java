@@ -32,15 +32,19 @@ public class RubiksCube {
                 break;
             case "r":
             soultion_stack.add("r'");
+                rotateRight();
                 break;
             case "l":
             soultion_stack.add("l'");
+                rotateLeft();
                 break;
             case "f":
             soultion_stack.add("f'");
+                rotateFront();
                 break;
             case "b":
             soultion_stack.add("b'");
+                rotateback();
                 break;
             case "q":
             proceed = false;
